@@ -3,7 +3,7 @@
 $ininalock=$wjid."_lock".".txt";
 include("./ini/zsini.php");
 if($zsspd==1){
-    if ($wjid==10000001) {//gm号可看
+    if ($wjid==10000001 && $config['debug']==true) {//gm号可看
         echo "<font color=red>==========调试信息=========</font>"."<br>";
         echo "NPC编号：".$npcc."号<br>";
         echo "<font color=red>==========调试信息=========</font>"."<br>";

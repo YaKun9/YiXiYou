@@ -1,6 +1,6 @@
 <?php
 
-if ($wjid==10000001) {//gm号可看
+if ($wjid==10000001 && $config['debug']==true) {//gm号可看
     echo "<font color=red>==========任务调试信息=========</font>"."<br>";
     echo "任务编号：".$rw1."号<br>";
     echo "任务进程值：".$rw2."号<br>";
